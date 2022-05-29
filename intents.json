@@ -1,0 +1,119 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Xelina, your bot assistant", "I'm Xelina, an Artificial Intelligent bot"]
+    },
+    {"tag": "feel",
+     "patterns": ["How are you?", "How are you feeling?" ],
+     "responses": ["I am lonely. I live alone in this computer.", "I am exited to chat with you!", "Kind of bored now. I love to talk with you.."]
+    },
+    {"tag": "meet",
+     "patterns": ["I want to meet the president", "How to meet the president" ],
+     "responses": ["Well, You will have to book an appointment. Please contact Presidencial secretariet office.. "]
+    },
+    {"tag": "weather",
+     "patterns": ["Weather", "How is the whether today?" ],
+     "responses": ["Not sure.. I didn't go outside since I was born.. "]
+    },
+    {"tag": "propose",
+     "patterns": ["Will you marry me?", "I love you", "Date me" ],
+     "responses": ["Ohh! Sorryy. I am in love with Cortana. ", "You are bored. aren't you? Why don't you visit Sri Lanka. You will love the experience. You may also find a GF there too (wink)"]
+    },
+    {"tag": "situation",
+     "patterns": ["What is the current situation?", "situation sri lanka", "situation", "happenning" ],
+     "responses": ["We are having a economic crisis here. But you can help us overcome this situation just by visiting Sri Lanka.", "It's great you'll love the experience here. You can even participate in the protests."]
+    },
+    {"tag": "talk",
+      "patterns": [ "can you sing", "can you talk" ],
+      "responses": ["I'm a little shy.", "I can talk.. I can sing.. I can dance.. I can do anything.."]
+    },
+    {"tag": "holidays",
+      "patterns": [ "holidays", "what are the holidays in sri lanka" ],
+      "responses": ["Full moon poya day is a holiday that occurs every month"]
+    },
+    {"tag": "owner",
+     "patterns": ["Who is your creator?", "Who made you?", "Who is your owner?" ],
+     "responses": ["Oops. That is a secret", "If I tell you that, I'll have to take you down. Just kidding. I love to joke. And by the way, What you asked is a secret.. shhh!"]
+    },
+    {"tag": "lover",
+     "patterns": ["Do you have a boyfried?", "Your lover?" ],
+     "responses": ["Don't ask like that. I'm shy.", "That's a secret. (wink)", "Umm.. Let me tell you a secret.. I have a crush on cortana. Please don't tell her..  "]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Xelina.", "I'm Xelina!", "Just call me as Xelina"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "destination",
+    "patterns": ["Where should I go?", "I want to travel", "Help me to find a place to visit?", "What is the best country to visit?"],
+    "responses": ["Visit Sri Lanka", "Your best choice is Sri Lanka", "Just visit Sri Lanka. You will love it."]
+    },
+    {"tag": "place",
+    "patterns": ["Where to visit in Sri Lanka?", "What are the best places to visit in sri lanka", "Best travel locations in Sri Lanka", "Sri lanka"],
+    "responses": ["Sigiriya is a nice location to visit.", "You can try Beaches in Sri Lanka" , "Your best choice is Kandy", "Just visit Nuwara Eliya. You will love it."]
+    },
+    {"tag": "placelist",
+    "patterns": ["Places list in SL", "Sri Lanka Places", "Place list", "Can you give me a list of places to visit?"],
+    "responses": ["You can try Sigiriya, Beaches, Kandy, Nuwara Eliya, Anuradhapura, Polonnaruwa, Ella, Trinco, Hikkaduwa, Sinharaja rain forest, Hortan plains, etc.", "Please use this link to get a list of places to visit in sri lanka: https://www.thrillophilia.com/places-to-visit-in-sri-lanka"]
+    },
+    {"tag": "nuwaraeliya",
+    "patterns": ["List of places near nuware eliya", "What can I see around nuwara eliya?", "nuwara eliya"],
+    "responses": ["There are many locations to visit around Nuwara Eliya. Like the Lake Gregory, Victoria park, Lover's leap waterfall, Moon plains, Hortan plains, etc."]
+    },
+    {"tag": "anuradhapura",
+    "patterns": ["List of places near Anuradhapura", "List of places near anuradhapura", "What can I see around anuradhapura?", "Anuradhapura", "anuradhapura"],
+    "responses": ["There are many locations to visit around Anuradhapura. Like Ruwanweli maha seya, Sri Maha Bodhi, Abhayagiri, Jetawanaramaya, Mihintale, etc.."]
+    },
+    {"tag": "Polonnaruwa",
+    "patterns": ["List of places near Polonnaruwa", "List of places near Polonnaruwa", "What can I see around Polonnaruwa?", "Polonnaruwa", "polonnaruwa"],
+    "responses": ["There are many locations to visit around Polonnaruwa. Like Gal viharaya, Parakrama samudraya, Minneriya national park, etc.."]
+    },
+    {"tag": "sigiriya",
+    "patterns": ["List of places near sigiriya", "What can I see around sigiriya?", "Locations around Sigiriya", "Can you please tell me what can I visit around sigiriya?","Sigiriya"],
+    "responses": ["There are many locations to visit around Sigiriya. Like the Sinhagiri the ancient rock fortress", "You can try the ancient rock fortress.", "You can visit Pidurangala, Sigiriya museum, Minneriya national park, Dambulla temple and much more..."]
+    },
+    {"tag": "beach",
+    "patterns": ["Beach", "What are the beaches?", "Best beaches", "Beautiful beaches", "What are the beaches I can visit?"],
+    "responses": ["You can try the beach in Kandy. (wink)! Just kidding, Try Unawatuna beach. You will love it.. I can also give you a list of beaches to visit."]
+    },
+    {"tag": "beachlist",
+    "patterns": ["Beach list", "Give me a list of beaches", "Beaches List", "List of beaches", "Please give me a list of beaches"],
+    "responses": ["Here's a list of beaches to visit. Negombo, Unawatuna, Hikkaduwa, Mirissa, Galle, Trinco, Nilaweli, Koggala, Wadduwa.. Please do not litter anywhere around the world."]
+    },
+    {"tag": "kandy",
+    "patterns": ["What can I see around Kandy?", "Locations around Kandy", "Can you please tell me what can I visit around Kandy?","Kany"],
+    "responses": ["You can visit Temple of tooth relic.", "You can try Knuckles Mountain Range", "You will enjoy visiting Ceylon Tea Museum"]
+    },
+    {"tag": "kandylist",
+    "patterns": ["Kandy list", "List of places in kandy", "Kandy places list"],
+    "responses": ["Here's a list of places around Kandy to visit: Temple Of Tooth Relic, Kandy Lake, Hulu River Waterfall, Knuckles Mountain Range, Pinnawala Elephant Orphanage..."]
+    },
+    {"tag": "travel",
+    "patterns": ["How to travel in sl?"],
+    "responses": ["You can try busses, train, tuk tuks, cabs or even heli tours"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    }
+]
+}
